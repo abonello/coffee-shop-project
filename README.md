@@ -2,6 +2,10 @@
 
 ## built with Gatsby
 
+## Deployment
+
+[Coffee Shop Deployment](https://coffee-shop-25.netlify.com/)
+
 ## Create new project and launch developer server
 
 ```
@@ -25,7 +29,7 @@ Modified
 - src/components/layout.js
 - gatsby-config.js
 
-The icon for fav-icon is from [www.iconfinder.com](https://www.iconfinder.com)
+The icon for fav-icon is from [www.iconfinder.com](https://www.iconfinder.com)  
 Needs attribution:
 
 ```
@@ -66,3 +70,14 @@ To use the icons, within the jsx
 <FaGulp />
 <FaBeer />
 ```
+
+## Deploying on Netlify
+
+This allows continuous deployment from github. After creating a new github repository and pushing the project there, go to Netlify and click the `New site from Git` button. From the options, select `Github`. If asked to, authorise Netlify to access github. Once you select the project's repository click on the `Deploy site` button.
+
+Note: Netlify will run the `gatsby build` command and will use the produced `public/` folder for deployment.
+
+We can change the site name, which will be used for the site subdomain from the **Settings** tab.
+I called this _coffee-shop-25_.
+
+Every time we push changes to GitHub, it will trigger a new build and deploy on Netlify.

@@ -81,3 +81,19 @@ We can change the site name, which will be used for the site subdomain from the 
 I called this _coffee-shop-25_.
 
 Every time we push changes to GitHub, it will trigger a new build and deploy on Netlify.
+
+## The Navbar
+
+Create a new folder called `globals` in the components folder. This will hold components that will be reused throughout the page. Create a `navbar.js` file in the globals folder.
+
+Add **Cart Icon**.
+
+Write the logic for `navbarHandler`.
+
+Note: deleted default styles in layout.css
+
+Add logo with attribution note. This links back to home page.
+
+Created navbar toggler button
+
+Add some basic styles. We will use css variables.
